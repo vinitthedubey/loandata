@@ -39,4 +39,4 @@ Home Screenshot
 
 Output Screenshot
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/vinitthedubey/loandata/blob/629700b08fe6bc3e2545f32cb8c72ed7b23471f5/App_Images/output.JPG)
