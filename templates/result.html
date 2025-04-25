@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extracted Loan Data</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h2>Extracted Loan Data</h2>
+    {% for key, value in data.items() %}
+        <p><b>{{ key }}:</b> {{ value }}</p>
+        {% if key in errors %}
+            <p style="color:red;">{{ errors[key] }}</p>
+        {% endif %}
+    {% endfor %}
+    <br><a href="/">Go Back</a>
+</body>
+</html>
